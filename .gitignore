@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python (if scripts get added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets — never commit real credentials or lab creds
+.env
+*.pem
+*.key
+
+# OS-generated
+Thumbs.db
