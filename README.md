@@ -1,23 +1,40 @@
 # Cybersecurity Training Log
 
-Labs, evidence, and portfolio work from a 15-week cybersecurity training programme (Network+, Cisco Ethical Hacker, hands-on labs) — tracked alongside a Jira board covering the full study plan.
+Labs, practical evidence, and portfolio work from a 15-week cybersecurity training programme covering Network+ and PenTest+ topics, the Cisco Networking Academy Ethical Hacker course, and hands-on cybersecurity exercises — tracked alongside a Jira board covering the full study plan.
 
 ## What's here
 
-- **`labs/`** — hands-on lab work: what was built, what was tested, findings, screenshots
-- **`portfolio/`** — polished write-ups intended to be shown to employers (recon reports, packet analysis, automation scripts, pentest reports)
-- **`docs/`** — reference material for the environment itself (network maps, lab setup)
+- **`labs/`** — individual hands-on exercises: what was built, tested, verified, and learned
+- **`docs/`** — environment and setup documentation, including lab network maps and supporting reference material
 
-Study notes and quiz results live in a separate local folder, not in this repo.
+Study notes, revision material, and quiz results are kept separately and are not included in this repository.
 
 ## Progress
 
-| Week | Focus | Status |
-|---|---|---|
-| 1 | Network+ foundations, Cisco EH Module 1, lab environment build | In progress |
+| Week | Focus                                                        | Status      |
+| ---- | ------------------------------------------------------------ | ----------- |
+| 1    | Network+ foundations, Cisco EH Module 1, lab environment build | Complete    |
+| 2    | Networking fundamentals, Cisco EH reinforcement, home network topology | In progress |
 
 *(updated as weeks complete)*
 
-## Lab environment
+## Lab environments
 
-The hands-on labs run on a Kali Linux VM hosting Docker-based vulnerable targets (WebSploit Labs), split across isolated internal networks (DMZ-SA, SA, root_websploit). Details in [`docs/lab-network-map.md`](docs/lab-network-map.md).
+Hands-on work in this repository uses different environments depending on the exercise, including Cisco Packet Tracer and a Kali Linux VM with isolated Docker-based vulnerable targets.
+
+Environment-specific setup and network details are documented under `docs/`, while individual exercises and supporting evidence are stored under `labs/`.
+
+## Repository approach
+
+The aim of this repository is not to store every piece of study material.
+
+Instead, it focuses on practical evidence that shows:
+
+- what I built
+- what I tested
+- how I verified it
+- problems I encountered
+- how I investigated or resolved them
+- what I learned from the exercise
+
+This keeps the repository focused on demonstrable technical work rather than general course notes.

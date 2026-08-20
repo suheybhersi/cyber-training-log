@@ -28,10 +28,10 @@ All devices sit on the same `/24` subnet (`192.168.0.0/24`), assigned via DHCP f
   Reply from 192.168.0.105: bytes=32 time=12ms TTL=128
   Reply from 192.168.0.105: bytes=32 time=16ms TTL=128
   Reply from 192.168.0.105: bytes=32 time=14ms TTL=128
-
+  
   Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
   ```
-  0% packet loss — confirms traffic actually routes across the whole network (wired PC reaching a wireless device through the router), not just that each device individually has an IP.
+  0% packet loss — confirms end-to-end connectivity between the wired PC and the wireless laptop through the home router, not just that each device individually has an IP.
 
 ## Files in this folder
 
