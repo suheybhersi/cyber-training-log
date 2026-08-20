@@ -13,8 +13,8 @@ Study notes, revision material, and quiz results are kept separately and are not
 
 | Week | Focus                                                        | Status      |
 | ---- | ------------------------------------------------------------ | ----------- |
-| 1    | Network+ foundations, Cisco EH Module 1, lab environment build | Complete    |
-| 2    | Networking fundamentals, Cisco EH reinforcement, home network topology | In progress |
+| 1 | Network+ foundations, Cisco Networking Academy Ethical Hacker Module 1, lab environment build | Complete |
+| 2 | Networking fundamentals, Cisco Networking Academy Ethical Hacker reinforcement, home network topology | In progress |
 
 *(updated as weeks complete)*
 
